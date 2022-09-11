@@ -21,6 +21,7 @@ public class RegexApp { //returns result as array, with matcher as elements in t
                 names.add(name);
             }
         }
+        System.out.println("Paths found: " + names.toArray().length);
         for (int i = 0; i < names.toArray().length; i++) {
             System.out.println(names.toArray()[i]);
         }
