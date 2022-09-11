@@ -10,10 +10,10 @@ import java.util.regex.Pattern;
 public class RegexApp { //returns result as array, with matcher as elements in the array
     public static void main(String[] args) throws IOException {
 
-        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\yourName\\Documents\\file.txt")); //use path to your file created from pwsl script
+        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\yourName\\")); //use path to your file created from pwsl script
         final List<String> names = new ArrayList<>();
         for (String line : lines) {
-            Pattern pattern = Pattern.compile(".*sudo*");
+            Pattern pattern = Pattern.compile("(.*)example(.*)");
             Matcher matcher = pattern.matcher(line);
             while (matcher.find()) {
                 String name = matcher.group(0);
