@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegexApp { //returns result as array, with matcher as elements in the array
+public class RegexApp { //returns result as array, sorted by the size of elements
     public static void main(String[] args) throws IOException {
 
         List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\yourName\\")); //use path to your file created from pwsl script
