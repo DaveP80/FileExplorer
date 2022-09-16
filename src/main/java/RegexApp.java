@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class RegexApp { //returns result as array, sorted by the size of elements
     public static void main(String[] args) throws IOException {
 
-        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\david\\desktop\\warnpeace.txt")); //use path to your file created from pwsl script
+        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\yourName\\desktop\\warnpeace.txt")); //use path to your file created from pwsl script
         List<String> names = new ArrayList<>();
 
         for (String line : lines) {

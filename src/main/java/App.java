@@ -12,11 +12,12 @@ public class App { //returns full file paths that contain a substring
         List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\yourName\\desktop\\warnpeace2.txt")); //use path to your file
         for (String line : lines) {
 //            Pattern pattern = Pattern.compile("(.*)animal(.*)");
-            Pattern pattern = Pattern.compile("(.*)[a-zA-Z](.*)");
+            //search for string
+            Pattern pattern = Pattern.compile("(.*)example(.*)");
             Matcher matcher = pattern.matcher(line);
+
             while (matcher.find()) {
                 countlines.add(matcher.group());
-//                System.out.println(line);
             }
         }
         for (String sentence: countlines) {
