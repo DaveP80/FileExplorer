@@ -6,6 +6,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class StreamSearch {
+    //searches through a text file and adds, all words to an array
+    //removes duplicate words
+    //replaces duplicate words with random other words, until we have an array
+    //similar in size to our original document/array
     public static Random rand = new Random();
     private static int getRandomIndex(int arraySize) {
         return rand.nextInt(arraySize);

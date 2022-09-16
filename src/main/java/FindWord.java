@@ -11,7 +11,7 @@ public class FindWord {
         ArrayList<String> countlines = new ArrayList<>();
         final String regex = "[a-zA-Z]+";
         final String regex2 = "/*and/*"; //bring back specific strings from array
-        final String string = String.valueOf(Files.readAllLines(Paths.get("C:\\Users\\david\\desktop\\warnpeace2.txt")));
+        final String string = String.valueOf(Files.readAllLines(Paths.get("warnpeace2.txt")));
 
         final Pattern pattern = Pattern.compile(regex);
         final Matcher matcher = pattern.matcher(string);
