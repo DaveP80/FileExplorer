@@ -1,6 +1,0 @@
-//Go to your root, C:\ and run this script in powershell
-//this script can be run in your intellij terminal
-//if not running, try running the script all on one line
-
-Get-ChildItem . -Force -Recurse | %{$_.fullname} | Out-File -FilePath
-C:\Users\yourName\example -Append -encoding utf8
