@@ -10,13 +10,18 @@ public class App { //returns full file paths that contain a substring
 
         List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\david\\desktop\\warnpeace.txt")); //use path to your file
         for (String line : lines) {
-            Pattern pattern = Pattern.compile("(?i) king(.*)"); //find all, ignoring case, strings of king
+            Pattern pattern = Pattern.compile("(?i) kingdom(.*)"); //find all, ignoring case, strings of king
 //            ("/*example/*")
             Matcher matcher = pattern.matcher(line);
             while (matcher.find()) {
-//                System.out.println(matcher.group(0)); prints out only the regex match
-                System.out.println(line);
+             //   prints out only the regex match
+                System.out.println(matcher.group(0)+" ");
+                System.out.print(matcher.group(1));
+//                System.out.println(line);
+//                System.out.println(line);
+
             }
+
         }
     }
 }
