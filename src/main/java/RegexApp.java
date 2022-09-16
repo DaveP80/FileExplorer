@@ -10,7 +10,7 @@ public class RegexApp { //returns result as array, sorted by the size of element
 
         List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\david\\desktop\\warnpeace.txt")); //use path to your file created from pwsl script
         List<String> names = new ArrayList<>();
-
+        //find all occurances of the substring
         for (String line : lines) {
             Pattern pattern = Pattern.compile("(.*)lady(.*)");
             Matcher matcher = pattern.matcher(line);

@@ -13,11 +13,12 @@ public class App { //returns full file paths that contain a substring
         for (String line : lines) {
 //            Pattern pattern = Pattern.compile("(.*)animal(.*)");
             //search for string
-            Pattern pattern = Pattern.compile("(.*) king(.*)");
+            Pattern pattern = Pattern.compile("(?i) king(.*)");
             Matcher matcher = pattern.matcher(line);
 
             while (matcher.find()) {
-                countlines.add(matcher.group());
+//                countlines.add(matcher.group());
+                System.out.println(line);
             }
         }
         for (String sentence: countlines) {

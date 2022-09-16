@@ -5,8 +5,6 @@ import java.util.stream.Collectors;
 public class ArrayResearch2 {
     public static void main(String[] args) {
 
-        Random rand = new Random();
-
         ArrayList<Integer> duplicates = new ArrayList<>();
         ArrayList<Integer> finalArray = new ArrayList<>();
         ArrayList<Integer> first5num = new ArrayList<>();
