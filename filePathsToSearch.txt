@@ -1,6 +1,0 @@
-C:\Users\david\desktop\warnpeace.txt
-C:\Users\david\Desktop\ResultFile
-
-C:\Users\david\.vscode\extensions\ms-python.python-2022.14.0\out\client\node_modules\sudo-prompt.js,
-C:\Users\david\AppData\Local\JetBrains\IdeaIC2022.1\plugins\imageCache\pl_sudo_imageviewer_python.svg,
-C:\Users\david\AppData\Local\JetBrains\IdeaIC2022.1\plugins\imageCache\pl_sudo_imageviewer_python_dark.svg
