@@ -9,11 +9,11 @@ import java.util.regex.Pattern;
 public class App { //returns full file paths that contain a substring
     public static void main(String[] args) throws IOException {
         List<String> countlines = new ArrayList<>();
-        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\yourName\\desktop\\warnpeace2.txt")); //use path to your file
+        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\david\\desktop\\warnpeace.txt")); //use path to your file
         for (String line : lines) {
 //            Pattern pattern = Pattern.compile("(.*)animal(.*)");
             //search for string
-            Pattern pattern = Pattern.compile("(.*)example(.*)");
+            Pattern pattern = Pattern.compile("(.*) king(.*)");
             Matcher matcher = pattern.matcher(line);
 
             while (matcher.find()) {
