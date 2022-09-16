@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM_[Changes]1" date="1663301444869" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 9/16/2022 12:10 AM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/App.class" />
+    <option name="AFTER_PATH" value="target/classes/App.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM_[Changes]1/App.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/RegexApp.class" />
+    <option name="AFTER_PATH" value="target/classes/RegexApp.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM_[Changes]1/RegexApp.class" />
+  </binary>
+</changelist>
