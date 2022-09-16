@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a97fd9-17c0-45b9-bbee-b6583a050165" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayResearch2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayResearch2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegexApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegexApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_15_2022_11_33_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_15_2022_11_33_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_12_10_AM__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_9_06_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_16_2022_9_06_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_16_2022_12_48_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_16_2022_12_48_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/david/Documents/learning/WordSearchFile",
+    "last_opened_file_path": "C:/Users/david/Documents/learning/FileExplorer",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayResearch" />
-        <item itemvalue="Application.RegexApp" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.FindWord" />
         <item itemvalue="Application.StreamSearch" />
+        <item itemvalue="Application.RegexApp" />
+        <item itemvalue="Application.FindWord" />
+        <item itemvalue="Application.ArrayResearch" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
